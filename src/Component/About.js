@@ -23,8 +23,7 @@ const About =()=>{
                 <button class="btn btn-primary w-100">Learn More</button>
                 </div></div>
              
-                <div class=" col-lg-3 col-md-5 " data-aos-easing="ease-out-cubic" data-aos="fade-left" data-aos-anchor="#example-anchor"
-                 data-aos-offset="100" data-aos-duration="3000">
+                <div class=" col-lg-3 col-md-5 " data-aos-easing="ease-out-cubic" data-aos="fade-up-left" data-aos-duration="3000">
                 <div class="about-img">
                      <img  src="https://kinforce.net/peint/wp-content/uploads/2021/05/Paint-Roller-With-Paint.H03.2k.png" class=" " alt="" />
                     </div>
