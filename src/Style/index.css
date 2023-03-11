@@ -1,0 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-link:rgb(6, 6, 50);
+}
+/*# sourceMappingURL=index.css.map */

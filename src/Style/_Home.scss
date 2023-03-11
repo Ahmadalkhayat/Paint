@@ -1,0 +1,48 @@
+.home {
+    width: 100%;
+    min-height: 70vh;
+    background: url("https://kinforce.net/peint/wp-content/uploads/2021/05/funny-decorator-robot-repaints-the-wall-of-the-roo-P6UBL52.jpg")center center ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.content-home{
+    width: 50%;
+    position: relative;
+   
+}
+.content-home img{
+    width: 80%;
+    border-radius: 2%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+} 
+
+
+ .world-paint{
+    color:var(--color-link);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+}
+:root{
+  --color-link:rgb(6, 6, 50)
+}
+

@@ -1,0 +1,16 @@
+@import "./NAv";
+@import "./Home";
+@import "./paint";
+@import "./About";
+@import "./footer";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --color-link:rgb(6, 6, 50);
+  }
+  

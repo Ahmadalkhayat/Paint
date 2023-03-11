@@ -1,0 +1,35 @@
+
+.home-paint{
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column !important;
+}
+.cards{
+    
+    flex-wrap: wrap !important;
+}
+.card{
+    margin-top:20px ;
+    padding: 20px;
+    width: 70%;
+    height: max-content;
+    border-radius: 20px;
+    border: 0;
+    background-color:gold;
+    box-shadow: 10px 10px 4px #eee;
+} 
+.card i{
+    color: var(--color-icon);
+}
+.h1-paint{
+    color:var(--color-link);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+   
+}
+
+:root{
+  --color-link:rgb(6, 6, 50);
+  --color-icon:rgb(236, 57, 117);
+}

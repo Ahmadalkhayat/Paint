@@ -1,0 +1,44 @@
+.cta{
+    background-color: #eee;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 70vh;
+}
+
+h3 {
+    color: var(--color-secondary);
+    font-size: 48px;
+    font-weight: 700;
+}
+ em {
+    font-style: normal;
+    position: relative;
+}
+.cta .content p {
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 18px;
+}
+.cta .content .cta-btn {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 10px;
+    background: var(--color-primary-dark-rgb);
+}
+img{
+    padding: 25px;
+    border-radius:50px
+}
+:root{
+    --color-primary:#0ea2bd;
+    /* --colors-secondry-rgb: rgb(72, 86, 100);*/
+    --color-secondary: #485664;
+    --color-secondary-light: #8f9fae;
+    --color-primary-dark-rgb: rgb(1, 137, 161);
+    --color-white: #ffffff;
+} 
