@@ -3,20 +3,16 @@
     height: 87vh;
     background-image: url(https://kinforce.net/peint/wp-content/uploads/2021/05/the-sky-is-PYQ74BD.jpg) ;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
-    background-clip: content-box;
-    
+    background-size: cover;    
     .container{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: flex-end;
-        justify-content: center;
         padding-top: 10%;
     }
     .title{
-        width: 75%;
+        width: 100%;
         font-weight: bolder;
         font-style: italic;
         @extend %nav-link
@@ -32,5 +28,10 @@
         color: #FDC733;
         font-size: large;
         font-weight: 900;
+    }
+    @media (max-width: 500px) {
+        .container .title , .information{
+            text-align: center!important;
+        }
     }
 }
