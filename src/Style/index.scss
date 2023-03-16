@@ -5,6 +5,7 @@
 @import "./footer";
 @import "./Counter";
 @import "./Service";
+@import "./Team";
 *{
   box-sizing: border-box;
   margin: 0;
@@ -13,5 +14,10 @@
 
 :root{
     --color-link:rgb(6, 6, 50);
+    --color-white: #ffffff;
+    --color-primary: #0ea2bd;
+    --color-secondary: #485664;
+    --color-gray: #6c757d;
+    --color-primary-light-rgb: 30, 195, 224;
   }
   

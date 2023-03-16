@@ -6,6 +6,7 @@ import About from "./About"
 import Paint from "./Home_paint"
 import Counter from "./Counter"
 import Service from "./Services"
+import Team from "./Team"
 import Footer from "./Footer"
 import "../Style/index.css"
 import Aos from 'aos';
@@ -19,6 +20,7 @@ const App = ()=> {
   <Paint />
   <About /> 
   <Service />
+  <Team />
   <Counter />
   <Footer />
    </div>

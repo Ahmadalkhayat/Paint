@@ -2,13 +2,13 @@ import React from "react"
 
 const About =()=>{
     return(
-<div  class="about ">
+<div  class="about">
         <div class=" mb-5 aos-init aos-animate" data-aos="fade-up">
                 <h2 class="text-center">About Us</h2>
                 <p class="text-center">Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
             </div>
             
-       <div class=" container-fluid dist d-flex  justify-content-around align-items-center aos-init  aos-animate pb-lg-5 pb-md-5">
+       <div class=" container dist d-flex  justify-content-around align-items-center aos-init  aos-animate pb-lg-5 pb-md-5">
 
              <div class="col-lg-6 col-md-12 text-center" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <div class="about-img">
@@ -25,7 +25,7 @@ const About =()=>{
              
                 <div class=" col-lg-3 col-md-5 " data-aos-easing="ease-out-cubic" data-aos="fade-up-left" data-aos-duration="3000">
                 <div class="about-img">
-                     <img  src="https://kinforce.net/peint/wp-content/uploads/2021/05/Paint-Roller-With-Paint.H03.2k.png" class=" " alt="" />
+                     <img  src="https://kinforce.net/peint/wp-content/uploads/2021/05/Paint-Roller-With-Paint.H03.2k.png" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>

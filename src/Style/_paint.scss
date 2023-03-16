@@ -1,18 +1,21 @@
 
 .home-paint{
     width:100%;
-    padding-top: 25px;
+    margin-top: 25px;
     padding-bottom: 25px;
-    flex-direction: column !important;
 }
-.cards{
-    
+.cards{ 
+    width: 100%;
+    display: flex;
     flex-wrap: wrap !important;
+    align-items: center;
+    justify-content: space-around;
+
 }
 .card{
     margin-top:20px ;
     padding: 20px;
-    width: 70%;
+    width: auto;
     height: max-content;
     border-radius: 20px;
     border: 0;

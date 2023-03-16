@@ -47,7 +47,7 @@ const Footer=()=>{
             <h5 className="text-light">Contact Us</h5>
             <p className="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
             <a className="btn rounded-pill main-btn w-100" href="/">Ahmad AL Khayat@gmail.com </a>
-            <ul className="d-flex mt-5 list-unstyled gap-3 ">
+            <ul className="d-flex mt-5 list-unstyled gap-3 justify-content-center">
               <li>
                 <a className="d-block text-light " href="/"><i className="fa-brands fa-facebook text-center fs-4 facebook rounded-circle p-2"></i></a>
               </li>

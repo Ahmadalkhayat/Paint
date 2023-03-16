@@ -1,3 +1,380 @@
+.navbar {
+  background-color: #de7c21;
+  width: 100%;
+}
+
+.navbar img {
+  max-height: 80px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.navbar .nav-link, .service .title {
+  color: var(--color-link) !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.home {
+  width: 100%;
+  min-height: 70vh;
+  background: url("https://kinforce.net/peint/wp-content/uploads/2021/05/funny-decorator-robot-repaints-the-wall-of-the-roo-P6UBL52.jpg") center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-home {
+  width: 50%;
+  position: relative;
+}
+
+.content-home img {
+  width: 80%;
+  border-radius: 2%;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+.world-paint {
+  color: var(--color-link);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+:root {
+  --color-link:rgb(6, 6, 50)
+;
+}
+
+.home-paint {
+  width: 100%;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+.cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  width: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 20px;
+  border: 0;
+  background-color: gold;
+  -webkit-box-shadow: 10px 10px 4px #eee;
+          box-shadow: 10px 10px 4px #eee;
+}
+
+.card i {
+  color: var(--color-icon);
+}
+
+.h1-paint {
+  color: var(--color-link);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+:root {
+  --color-link:rgb(6, 6, 50);
+  --color-icon:rgb(236, 57, 117);
+}
+
+.dist {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.dist .about-img .image {
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: -10px -10px 30px 5px var(--e-global-color-primary);
+          box-shadow: -10px -10px 30px 5px var(--e-global-color-primary);
+}
+
+h2 {
+  color: var(--e-global-color-primary);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+  --e-global-color-primary: #18256D;
+}
+
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+
+.main-btn {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+  padding: 0.5rem 1rem;
+}
+
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer .copyright > span {
+  color: var(--green-color);
+}
+
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+
+.footer .contact ul i {
+  width: 20px;
+  height: 20px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.footer .facebook {
+  background-color: #1877f2;
+}
+
+.footer .twitter {
+  background-color: #1da1f2;
+}
+
+.footer .linkedin {
+  background-color: #0077b5;
+}
+
+.footer .youtube {
+  background-color: #ff0000;
+}
+
+.counter {
+  width: 100%;
+  height: 50vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 189, 79, 0.8)), to(rgba(248, 102, 4, 0.846)));
+  background-image: linear-gradient(rgba(248, 189, 79, 0.8), rgba(248, 102, 4, 0.846));
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  padding-top: 10%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service {
+  width: 100%;
+  height: 87vh;
+  background-image: url(https://kinforce.net/peint/wp-content/uploads/2021/05/the-sky-is-PYQ74BD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10%;
+}
+
+.service .title {
+  width: 100%;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.service .info h3 {
+  color: #212529;
+  font-weight: bolder;
+  font-size: large;
+  font-style: italic;
+  font-family: FontAwesome;
+}
+
+.service .info p {
+  color: var(--color-link);
+  font-size: large;
+  font-weight: 900;
+}
+
+@media (max-width: 500px) {
+  .service .container .title, .service .information {
+    text-align: center !important;
+  }
+}
+
+.team {
+  gap: 5px;
+}
+
+.team .team-member {
+  margin-bottom: 20px;
+}
+
+.team .team-member .member-info {
+  padding: 30px 15px;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin: -50px 20px 0 20px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.team .team-member .member-info h4 {
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: var(--color-secondary);
+}
+
+.team .team-member .member-info span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-gray);
+}
+
+.team .team-member .member-info .social {
+  position: absolute;
+  left: 0;
+  top: -18px;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team .team-member .member-info .social a {
+  color: var(--color-white);
+  background: var(--color-primary);
+  margin: 0 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  line-height: 0;
+  font-size: 16px;
+}
+
+.team .team-member .member-info i {
+  font-size: 18px;
+  margin: 0 2px;
+  line-height: 0;
+  font-size: 16px;
+}
+
+.team .team-member:hover .social {
+  opacity: 1;
+}
+
+.team .team-member .social a:hover {
+  background: var(--color-primary-light);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,5 +384,10 @@
 
 :root {
   --color-link:rgb(6, 6, 50);
+  --color-white: #ffffff;
+  --color-primary: #0ea2bd;
+  --color-secondary: #485664;
+  --color-gray: #6c757d;
+  --color-primary-light-rgb: 30, 195, 224;
 }
 /*# sourceMappingURL=index.css.map */
