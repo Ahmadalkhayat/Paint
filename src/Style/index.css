@@ -294,6 +294,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+.team .team-member .member-img {
+  height: auto;
+}
+
 .team .team-member .member-info {
   padding: 30px 15px;
   text-align: center;

@@ -4,7 +4,7 @@ import { BrowserRouter ,Routes,Route , Link} from "react-router-dom"
 
 const NavBar=()=>{
 return(
-<nav className="navbar navbar-expand-lg navbar-light   w-100  sticky-top" >
+<nav className="navbar navbar-expand-lg navbar-light   w-100 fixed-top" >
         <div className="container">
           <a className="logo navbar-brand fs-2" href="/"> <img  src="https://img.freepik.com/premium-vector/paint-location-logo-design-with-concept-creative-color-premium-vector_638990-276.jpg?size=626&ext=jpg&ga=GA1.1.225509727.1676110775&semt=ais" alt="" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">

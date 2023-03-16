@@ -2,6 +2,9 @@
 .team { 
     gap: 5px;
     .team-member{
+        .member-img{
+            height: auto;
+        }
         margin-bottom: 20px; 
         .member-info {
             padding: 30px 15px;

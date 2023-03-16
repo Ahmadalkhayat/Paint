@@ -4,7 +4,7 @@ import React from "react";
 const Person=(props)=>{
     return(
     
-    <div class=" col-md-4 d-flex aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+    <div className=" col-md-4 d-flex aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
                 <img src={props.p.img} class="img-fluid" alt=""/>
@@ -29,13 +29,13 @@ const Team=()=>{
         <div className="container">
           <div> 
           <h2 className="text-center fs-2"> Our Team</h2>
-          <p > Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga</p>
+          <p className="text-center fs-3 fw-bold"> Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga</p>
           </div>
            <div className="team pt-5 w-100 d-flex flex-wrap justify-content-around align-items-center">
-          <Person   p={{img:"https://images.pexels.com/photos/1666756/pexels-photo-1666756.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Walter White", work:"Chief Executive Officer"}}/>
-          <Person   p={{img:"https://images.pexels.com/photos/1666756/pexels-photo-1666756.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Walter White", work:"Chief Executive Officer"}}/>  
-           <Person   p={{img:"https://images.pexels.com/photos/1666756/pexels-photo-1666756.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Walter White", work:"Chief Executive Officer"}}/>
-           <Person   p={{img:"https://images.pexels.com/photos/1666756/pexels-photo-1666756.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Walter White", work:"Chief Executive Officer"}}/>
+          <Person   p={{img:"https://images.pexels.com/photos/6474472/pexels-photo-6474472.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Bestbe", work:"Chief Executive Officer"}}/>
+          <Person   p={{img:"https://images.pexels.com/photos/6474483/pexels-photo-6474483.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Maria", work:"Chief Executive Officer"}}/>  
+           <Person   p={{img:"https://images.pexels.com/photos/8396140/pexels-photo-8396140.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"Liza ", work:"Chief Executive Officer"}}/>
+           <Person   p={{img:"https://images.pexels.com/photos/3186683/pexels-photo-3186683.jpeg?auto=compress&cs=tinysrgb&w=600" ,nam:"joy malrino", work:"Chief Executive Officer"}}/>
          
            </div>
          </div> 
