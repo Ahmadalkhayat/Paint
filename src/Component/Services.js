@@ -4,7 +4,7 @@ const Service=()=>{
     return(
         <div className="service pb-5">
         <div className="container">
-        <div className="col-lg-6 col-md-12">
+        <div className=" col-lg-6">
         <div className="title " data-aos="fade-left"data-aos-duration="2000" >
          <h1 > Why Our Painting Service Is Better Than Others </h1>
          </div>
@@ -32,9 +32,6 @@ const Service=()=>{
         </div>
         </div>
         </div>
-
-
-
         </div>
          </div>
         </div>

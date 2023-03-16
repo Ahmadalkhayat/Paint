@@ -3,9 +3,9 @@ import React from "react"
 const About =()=>{
     return(
 <div  class="about">
-        <div class=" mb-5 aos-init aos-animate" data-aos="fade-up">
+        <div class="container mb-5 aos-init aos-animate" data-aos="fade-up">
                 <h2 class="text-center">About Us</h2>
-                <p class="text-center">Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+                <p class="text-center fs-3 fw-bold ">Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
             </div>
             
        <div class=" container dist d-flex  justify-content-around align-items-center aos-init  aos-animate pb-lg-5 pb-md-5">
