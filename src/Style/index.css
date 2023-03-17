@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.navbar img {
+.navbar .container .logo img {
   max-height: 80px;
   width: 100%;
   border-radius: 20px;

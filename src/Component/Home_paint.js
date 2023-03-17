@@ -16,7 +16,7 @@ const Card=(props)=>{
 }
 
 const Paint =()=>{
-  const info=[
+  const infor=[
     {id:1,title:"Reach as",par:"Suspendisse gravida ex id nulla diet eget soda ",icon:"bi bi-pencil",
                data_aos:"fade-rigth",data_aos_duration:"3000",data_aos_delay:"200"},
     
@@ -24,13 +24,13 @@ const Paint =()=>{
                data_aos:"fade-up",data_aos_duration:"3000",data_aos_delay:"300" },
 
      {id:3,title:"Validation of Wall",par:"Suspendisse gravida ex id nulla diet eget soda ",icon:"bi bi-bricks",
-               data_aos:"fade-down",data_aos_duration:"3000",data_aos_delay:"400" },
+               data_aos:"fade-up",data_aos_duration:"3000",data_aos_delay:"400" },
 
      {id:4,title:"Approval & Execution",par:"Suspendisse gravida ex id nulla diet eget soda ",icon:"bi bi-paint-bucket",
                data_aos:"fade-left",data_aos_duration:"3000",data_aos_delay:"500"}
   ]
         
-  const members=info.map(member=>{
+  const members=infor.map(member=>{
     return <Card 
       key={member.id}
       title={member.title}

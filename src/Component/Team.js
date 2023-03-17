@@ -4,16 +4,16 @@ const Person=(props)=>{
     return(
     
     <div className=" col-md-4 d-flex aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src={props.img} class="img-fluid" alt=""/>
+            <div className="team-member">
+              <div className="member-img">
+                <img src={props.img} className="img-fluid" alt=""/>
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href="/"><i class="bi bi-twitter"></i></a>
-                  <a href="/"><i class="bi bi-facebook"></i></a>
-                  <a href="/"><i class="bi bi-instagram"></i></a>
-                  <a href="/"><i class="bi bi-linkedin"></i></a>
+                  <a href="/"><i className="bi bi-twitter"></i></a>
+                  <a href="/"><i className="bi bi-facebook"></i></a>
+                  <a href="/"><i className="bi bi-instagram"></i></a>
+                  <a href="/"><i className="bi bi-linkedin"></i></a>
                 </div>
                 <h4>{props.name}</h4>
                 <span>{props.working}</span>
