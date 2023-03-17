@@ -11,7 +11,7 @@ import { BrowserRouter ,Routes,Route , Link} from "react-router-dom"
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
            <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="links collapse navbar-collapse" >
+          <div className="links collapse navbar-collapse" id="main" >
           
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
               <li className="nav-item"><Link className="nav-link active"  to="#" >Home </Link></li>
@@ -25,7 +25,7 @@ import { BrowserRouter ,Routes,Route , Link} from "react-router-dom"
              
            </ul>
            
-           <button className="ms-4 btn btn-primary ">Get Started</button>
+           <button className=" btn btn-primary ">Get Started</button>
           </div>
         </div>
       </nav>
