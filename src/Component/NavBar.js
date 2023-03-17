@@ -38,7 +38,7 @@ export default function RoterNav() {
     <BrowserRouter>
     <Routes>
       <Route path="/Paint"  element={<NavBar />}>
-        <Route  element={<NavBar />} />
+        <Route  path="https://Ahmadalkhayat.github.io/Paint" element={<NavBar />} />
       </Route>
     </Routes>
   </BrowserRouter>
