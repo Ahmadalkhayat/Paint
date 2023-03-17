@@ -1,23 +1,20 @@
-  
+@import "./Variables";
     .dist{
         flex-wrap: wrap;
-     }
-   .about-img{
-     padding-top: 20px;
-     width: 100%;
-   }
-   .dist .about-img .image{
-     height: 100%;
-     border: none;
-     border-radius: 15px;
-     box-shadow: -10px -10px  30px  5px var(--e-global-color-primary);
-     
- }
+        .about-img{
+          padding-top: 20px;
+          width: 100%;
+          .image{
+            height: 100%;
+            border: none;
+            border-radius: 15px;
+            box-shadow: -10px -10px  30px  5px $color-link;
+            
+        }
+        }
+     } 
   h2{
-     color: var(--e-global-color-primary );
+     color:$color-link;
      font-weight: bold;
      font-family: Georgia, 'Times New Roman', Times, serif
  }
- :root{
-     --e-global-color-primary: #18256D;
-    }

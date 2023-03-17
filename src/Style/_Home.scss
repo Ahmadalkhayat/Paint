@@ -1,3 +1,5 @@
+@import "./Variables";
+
 .home {
     width: 100%;
     min-height: 70vh;
@@ -13,18 +15,16 @@
     align-items: flex-end;
     padding-top: 20px;
     padding-bottom: 20px;
+    .content-home{
+      width: 50%;
+      position: relative;
+      img{
+        width: 80%;
+        border-radius: 2%;
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
+  }
  }
-.content-home{
-    width: 50%;
-    position: relative;
-   
-}
-.content-home img{
-    width: 80%;
-    border-radius: 2%;
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
-}
 
 @keyframes up-down {
   0% {
@@ -38,11 +38,8 @@
 
 
  .world-paint{
-    color:var(--color-link);
+    color:$color-link;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-weight: bold;
-}
-:root{
-  --color-link:rgb(6, 6, 50)
 }
 

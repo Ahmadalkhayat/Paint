@@ -1,4 +1,4 @@
-
+@import "./Variables";
 .team { 
     gap: 5px;
     .team-member{
@@ -9,8 +9,8 @@
         .member-info {
             padding: 30px 15px;
             text-align: center;
-            box-shadow: 0px 2px 15px rgba(0,0,0, 0.1);
-            background: rgb(255, 255, 255);
+            box-shadow: 0px 2px 15px $color-shadwo;
+            background: $color-white;
             margin: -50px 20px 0 20px;
             position: relative;
             border-radius:8px;    
@@ -18,13 +18,13 @@
                 font-weight: 400;
                 margin-bottom: 5px;
                 font-size: 24px;
-                color: var(--color-secondary)
+                color: $color-secondary
             }
             span{
                 display: block;
                 font-size: 16px;
                 font-weight: 400;
-                color: var(--color-gray);
+                color: $color-gray;
             }
             .social {
                 position: absolute;
@@ -37,8 +37,8 @@
                 align-items: center;
                 justify-content: center;
                 a{
-                    color: var(--color-white);
-                    background: var(--color-primary);
+                    color: $color-white;
+                    background: $color-primary;
                     margin: 0 5px;
                     display: inline-flex;
                     align-items: center;
@@ -65,6 +65,6 @@
   }
   
   .team .team-member .social a:hover {
-    background: var(--color-primary-light);
+    background: $color-primary;
   }
   

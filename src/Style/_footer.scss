@@ -1,39 +1,34 @@
-:root {
-    --dark-color: #19283f;
-    --green-color: #33d1cc;
-    --red-color: #ff3150;
-    --yellow-color: #ffc400;
-    --section-color: #eff7fa;
-  }
+@import "./Variables";
+
 .main-btn{
-  background-color: var(--red-color);
-    color: var(--yellow-color);
+    background-color: $red-color;
+    color: $yellow-color;
     padding: 0.5rem 1rem;
 }
 .footer {
-    background-color: var(--dark-color);
+    background-color: $dark-color;
+    .copyright > span {
+      color: $green-color;
+      div span {
+        color: $yellow-color;
+      }
+    }
+    .contact ul i {
+      width: 20px;
+      height: 20px;
+      box-sizing: content-box;
+    }
+    .facebook {
+      background-color: #1877f2;
+    }
+    .linkedin {
+      background-color: #0077b5;
+    }
+    .twitter {
+      background-color: #1da1f2;
+    }
+    .youtube {
+      background-color: #ff0000;
+    }
   }
-  .footer .copyright > span {
-    color: var(--green-color);
-  }
-  .footer .copyright div span {
-    color: var(--yellow-color);
-  }
-  .footer .contact ul i {
-    width: 20px;
-    height: 20px;
-    box-sizing: content-box;
-  }
-  .footer .facebook {
-    background-color: #1877f2;
-  }
-  .footer .twitter {
-    background-color: #1da1f2;
-  }
-  .footer .linkedin {
-    background-color: #0077b5;
-  }
-  .footer .youtube {
-    background-color: #ff0000;
-  }
-  
+ 

@@ -1,21 +1,21 @@
-
+@import "./Variables";
 .navbar{
-background-color:#de7c21;
+background-color:$color-nav;
 width: 100%;
-
-.nav-link{
-  @extend %nav-link
-}
-}
-.navbar img{
+img{
   max-height:80px;
   width: 100%;
   border-radius: 20px;
   background-color: transparent;
 }
+.nav-link{
+  @extend %nav-link
+}
+}
+
 
 %nav-link{
-  color: var(--color-link) !important;
+  color:$color-link !important;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   font-weight: bold;
 }
