@@ -37,7 +37,7 @@ export default function RoterNav() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/"  element={<NavBar />}>
+      <Route path="/Paint"  element={<NavBar />}>
         <Route  element={<NavBar />} />
       </Route>
     </Routes>
