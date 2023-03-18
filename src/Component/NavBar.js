@@ -15,8 +15,8 @@ import { BrowserRouter ,Routes,Route , Link} from "react-router-dom"
           
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
               <li className="nav-item"><Link className="nav-link active"  to="#" >Home </Link></li>
-              <li className="nav-item"><Link className="nav-link "  to="#">About</Link></li>
-              <li className="nav-item"><Link className="nav-link "  to="#">Services</Link></li>
+              <li className="nav-item"><Link className="nav-link "  to="/">About</Link></li>
+              <li className="nav-item"><Link className="nav-link "  to="/Services.js">Services</Link></li>
               <li className="nav-item"><Link className="nav-link "  to="#">Gallery</Link></li>
               <li className="nav-item"><Link className="nav-link "  to="#">Team</Link></li>
               <li className="nav-item"><Link className="nav-link "  to="#">Blog</Link></li>
